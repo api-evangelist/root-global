@@ -1,7 +1,15 @@
 aid: root-global
 name: Root Global
-description: Root Global is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Root Global is a Berlin-based climate technology company building
+  decarbonization infrastructure for the food and beverage supply chain.
+  Founded in 2022 and backed by Point Nine, its carbon operating system lets
+  food processors, manufacturers, and retailers collect farm-level emissions
+  data at scale, calculate corporate and product carbon footprints, and launch
+  tailored reduction plans with their farming partners. Results are GUTcert
+  certified and SBTi compliant, with the platform supporting operations across
+  11+ European countries. Root Global exposes no public developer API surface;
+  this profile captures its corporate identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/root-global/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,30 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/wUcrp22tjQ8B4WheMf0qGexIzjU.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Climate
+- Carbon Accounting
+- Sustainability
+- Food and Beverage
+- Supply Chain
+- Decarbonization
+- Emissions
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.rootglobal.io
+- type: About
+  url: https://www.rootglobal.io/about-us
+- type: Support
+  url: https://www.rootglobal.io/contact
+- type: StatusPage
+  url: https://status.rootglobal.io/
+- type: PrivacyPolicy
+  url: https://www.rootglobal.io/privacy-policy
+- type: TermsOfService
+  url: https://www.rootglobal.io/imprint
+- type: Customers
+  url: https://www.rootglobal.io/customers
+- type: Blog
+  url: https://www.rootglobal.io/press-articles
+- type: Jobs
+  url: https://jobs.ashbyhq.com/rootglobal
+- type: LinkedIn
+  url: https://www.linkedin.com/company/rootglobal0/
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/root-global
+- type: DomainSecurity
+  url: security/root-global-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
